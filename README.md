@@ -44,6 +44,7 @@ pm = ['Hot','Warm','Cold']
 e1 = OrdinalEncoder(categories=[pm])
 e1.fit_transform(df[['ord_2']])
 ```
+
 ![image](https://github.com/user-attachments/assets/3e08076d-cf49-48e9-b816-dd4f7138d9ec)
 
 ```
